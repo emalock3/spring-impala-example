@@ -1,0 +1,8 @@
+# settings for staging
+
+# Hive datasource Settings
+spring.datasource:
+  url: "jdbc:hive2://111.222.111.222:21050/impalatest;auth=noSasl"
+  username: ""
+  password: ""
+  driverClassName: org.apache.hive.jdbc.HiveDriver

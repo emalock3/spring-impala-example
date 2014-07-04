@@ -1,0 +1,6 @@
+# common settings
+spring:
+  application.name: spring-impala-example
+  profiles.active: development
+
+impala.query: "SELECT COUNT(*) FROM T1"
